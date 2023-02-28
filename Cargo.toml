@@ -1,0 +1,11 @@
+[package]
+name = "reqnotify"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+reqwest = { version = "0.11", features = ["json"] }
+serde = { version = "1.0.152", features = ["derive"] }
+serde_json = "1.0.93"
+tokio = { version = "1", features = ["full"] }
+winrt-notification = "0.5.1"
